@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  background: #f7f7f7;
+}
+.containerb{
+  width: 100%;
+  height: 100vh;
+}
+
+.twos{
+    width: 100%;
+    display: flex;
+}
+.three{
+  background-color: #fff;
+}
+nav{
+  width: 100%;
+}
+
+
+.jumia{
+    color:#ffbf00 ;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.logoz{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.twos p{
+  margin-left: 30px;
+}
+.search-bar {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .search-bar button {
+    
+    background-color:#ffbf00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+ 
+  li{
+    color: rgba(197, 186, 186, 0.868);
+    padding: 20px;
+    font-family:Alef ;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+    color: #fff;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .jumia-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    width: 200px;
+  }
+  
+  .jumia-logo img {
+    max-width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .header-center {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .search-bar button {
+    background-color: #ffbf00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-logo img {
+    max-width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .help, .cart {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .move{
+    padding-left: 300px;
+    position: absolute;
+    top: -15px;
+    
+  }
+  .make{
+    position: absolute;
+    top: -20px;
+    right: 250px;
+  }
+  .name{
+    color: rgb(0, 0, 0);
+  }
+  .wrapper{
+    gap: 10;
+    padding: 30px;
+    margin-top: 10px;
+  }
+  .main{
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+
+  }
+  .main .cardx{
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .sidebarr{
+    background: #fff;
+    width: 20%;
+    margin-right: 10px;
+  }
+  .link-wrap li a{
+    text-decoration: none;
+    color: #000;
+    
+  }
+  .active{
+    background-color: grey;
+  }
+  .c-info{
+    display: flex;
+  }
+  .details{
+    padding: 10px;
+  }
+ .t-links{
+  display:flex;
+ }
+ .top3{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  background-color: #fff;
+ }
+  
